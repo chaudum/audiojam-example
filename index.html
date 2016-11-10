@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Web Audio API - AM Synth</title>
+    <style type="text/css">
+      #keyboard {
+        width: 800px;
+        height: 120px;
+      }
+      #attack, #release {
+        width: 50px;
+        height: 50px;
+        display: inline-block;
+      }
+    </style>
+    <!--[if IE]>
+      <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+    <script src="jquery-2.2.4.min.js"
+            type="application/javascript"></script>
+    <script src="jquery.kontrol.js"
+            type="application/javascript"></script>
+    <script src="qwerty-hancock.min.js"
+            type="application/javascript"></script>
+    <script src="synth.js"
+            type="application/javascript"></script>
+  </head>
+
+  <body id="home">
+
+    <h1>Web Audio Synth</h1>
+
+    <div id="keyboard"></div>
+    <div>
+      <div id="attack"></div>
+      <div id="sustain"></div>
+      <div id="decay"></div>
+      <div id="release"></div>
+    </div>
+
+  </body>
+</html>
+
